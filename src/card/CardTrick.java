@@ -33,6 +33,13 @@ public class CardTrick {
         System.out.println("Hurrrraaaay!!!!, You guessed it right!!");}
         else{
         System.out.println("Sorry ,Better Luck next time");
+            
+            //Adding luckyCard as a card Object
+            Card luckyCard= new Card();
+            luckyCard.setValue(5);
+            luckyCard.setSuit("Spades");
+            
+            
 
     }
 }
